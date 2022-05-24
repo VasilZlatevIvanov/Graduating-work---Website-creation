@@ -1,0 +1,524 @@
+@charset "utf-8";
+
+img{border: none;} 
+ 
+.hidden { display: none; }
+.unhidden { display: block; }
+
+.good {
+text-align:center;
+color: #003366;
+border: 2px solid #00ff00;
+padding: 10px;
+background-color: #ccffcc;
+}
+ 
+.bad  {
+text-align:center;
+color:red;
+border: 2px solid #ff0000;
+padding: 10px; 
+background-color: #ffcccc;
+}
+
+#pdf  {
+position:relative;
+top:5px;
+margin-left:10px;
+margin-right:10px;
+}
+
+html { 
+cursor:url('../cursors/blue_pen.cur'), default;
+font-family: Arial; 
+background: url("../img/background.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body {
+margin-top: 20px;
+}
+
+h1 {
+font-family:"Arial";
+color: black;
+text-align: center;
+font-size: 30px;
+}
+
+h2{
+margin-bottom:10px;
+color: #003366;
+text-align:center;
+}
+
+h3{
+margin-top:50px;
+margin-bottom:10px;
+color:#003366;
+text-align:left;
+}
+
+h4  a {
+font-family:arial;
+color: #1840B5;
+text-align: center;
+font-size: 16px;
+}
+
+h4.profesii{
+margin-left:15px;
+color:#003366;
+padding-top: 20px;
+margin-bottom:0px;
+}
+
+a {
+cursor: url('../cursors/yellow_pen.cur'), pointer;
+text-transform: uppercase;
+font-family:arial;
+text-decoration: none;
+color: #1840B5;
+text-align: center;
+}
+
+a#profesii {
+text-transform:none;
+text-align:left;
+text-decoration:underline;
+color:#003366;
+}
+
+a#profesii:hover{
+text-decoration:none;
+}
+
+a#back_button_zaqvka {
+text-transform:uppercase;
+font-weight:bold;
+color: #003366;
+font-size: 18px;
+}
+a#back_button_zaqvka:hover {
+text-decoration:underline;
+}
+
+
+
+p {
+color: #003366; 
+font-family:"arial";
+font-size: 18px;
+text-align: center;
+}
+
+p_finans{
+color:#003366;
+}
+
+p_ramkova_programa {
+color:#003366;
+text-transform: none;
+margin-left:0px;
+text-align:left;
+text-decoration: underline;
+font-family:arial;
+font-weight:bold;
+font-size:16px;
+}
+p_ramkova_programa:hover {
+text-decoration:none;
+color: #E6B800;
+margin-left:10px;
+}
+p_ramkova_programa_p {
+color: #003366;
+font-family:arial;
+font-size:13px;
+font-weight:bold;
+}
+
+p_normativni {
+color:#003366;
+text-transform: none;
+margin-left:0px;
+text-align:left;
+text-decoration: underline;
+font-family:arial;
+font-weight:bold;
+font-size:15px;
+}
+p_normativni:hover {
+text-decoration:none;
+color: #E6B800;
+margin-left:10px;
+}
+
+label {
+display: block; 
+padding: 8px; 
+border-bottom: 1px dotted #999; 
+font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+font-size: 14px; 
+width: 100%; 
+padding: 8px; 
+color: #666; 
+background-color: #fff; 
+border: 1px solid #999;
+border-radius: 2px; 
+margin: 5px; 
+margin-left: auto; 
+margin-right: auto;
+-webkit-transition: all 300ms;
+-moz-transition: all 300ms;
+-o-transition: all 300ms;
+-ms-transition: all 300ms;
+transition: all 300ms;
+}
+
+input[type="submit"] {
+margin-left: 45%; 
+padding: 7px; 
+width: auto; 
+margin-top: 20px; 
+display: button;
+}
+
+input[type="submit"]:hover {
+box-shadow: 1px 1px 10px  #ccc inset, 5px 5px 5px #ccc;
+}
+
+ol {
+display: block;
+list-style-type: decimal;
+}
+
+ul#profesii{
+color:#003366;
+margin-top:0px;
+}
+
+ul#istoriq{
+font-size:18px;
+list-style-type:none;
+color:#003366;
+margin-top:0px;
+}
+
+li#profesii{
+margin-left:10px;
+color:#003366;
+margin-bottom: 3px;
+}
+#profesii li:hover {
+margin-left:20px;
+text-decoration:none;
+color:#E6B800;
+}
+
+#header {
+background-color: transparent;
+width:1024px;
+height: 313px;
+margin:auto;
+position:relative; 
+text-align: center;
+font-size: 28px;
+}
+
+#wrapper {
+width:1024px; 
+margin: auto;
+margin-top:70px;
+position:relative;
+}
+
+#mainframe {
+background-color: transparent/*#F3F7F8*/;
+position:relative;
+top: 20px;
+float: right;
+width: 794px;
+height: auto;
+min-height:914px;
+min-width: 300px;
+border-radius:20px;
+padding-top:0px;
+padding-bottom: 15px;
+padding-left: 0px;
+padding-right: 0px;
+margin-top:10px;
+margin-bottom: 20px;
+}
+
+#top_border_mainframe{
+font-size: 16px;
+font-family: Arial;
+font-weight: bold;
+color: #1840B5;
+text-align: center;
+text-transform: uppercase;
+background: #ffffb2;
+background: -moz-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -webkit-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -o-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -ms-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: linear-gradient(to top, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+position:relative;
+float: center;
+width:794px;
+line-height: 1.5;
+border-radius: 5px;
+padding-top: 10px;
+padding-bottom:10px;
+box-shadow:inset 0 0 0 1px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);
+}
+
+
+#novini {
+width: 100%; 
+margin: auto;
+}
+#novini_zaglavie{
+text-align:center;
+display:block;
+color:#003366;
+font-size:22px;
+font-weight:bold;
+margin-top:12px;
+padding-top:5px;
+padding-bottom:5px;
+border-radius:5px;
+}
+#novini_avtor {
+font-weight:bold;
+color:#003366;
+font-size:12px;
+background-color: #C5DCFD;
+background: -moz-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -webkit-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -o-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -ms-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: linear-gradient(to top, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+display:block;
+border-radius:5px;
+box-shadow:inset 0 0 0 1px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);
+padding-top:5px;
+padding-bottom:5px;
+margin-bottom:0px;
+margin-top:20px;
+}
+
+#polezno {
+color: #003366;
+font-size:12px;
+font-family:arial;
+width: 450px;
+height:auto;
+float:left;
+}
+#link_polezno {
+color:#003366;
+font-size:12px;
+font-family:arial;
+width: 240px;
+height:auto;
+float:right;
+}
+#polezno ul {
+padding-bottom:5px;
+padding-left:0px;
+list-style-type: none;
+overflow: hidden;
+}
+#polezno li {
+padding-bottom:8px;
+}
+
+#link_polezno ul {
+padding-left:0px;
+list-style-type: none;
+overflow: hidden;
+}
+#link_polezno li {
+color: #003366;
+padding-bottom:8px;
+}
+#link_polezno li a {
+text-transform: none;
+color:#003366;
+text-decoration:underline;
+}
+#link_polezno li a:hover {
+color:#E6B800;
+}
+
+#iframe_index {
+border-style: none; 
+width: 790px; 
+height: 974px; 
+position:relative; 
+top:20px; 
+}
+#iframe_kontakti {
+border-style: none; 
+width: 780px; 
+height: 874px; 
+position:absolute; 
+top:70px; 
+}
+#iframe_istoriq{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:70px; 
+}
+#iframe_ustav{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:80px; 
+}
+#iframe_licenz{
+border-style: none; 
+width: 800px; 
+height: 1174px; 
+position:absolute; 
+top:50px; 
+}
+#iframe_zakon_za_obrazovanie{
+border-style: none; 
+width: 800px; 
+height: 1174px; 
+position:absolute; 
+top:50px; 
+}
+#iframe_profesii{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:80px; 
+}
+#iframe_zaqvka_za_obuchenie{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:80px; 
+}
+#iframe_evropeisko_finansirane{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:80px; 
+}
+#iframe_samofinansirane{
+border-style: none; 
+width: 780px; 
+height: 974px; 
+position:absolute; 
+top:80px; 
+}
+
+#copy {
+position:relative;
+background-color: #C5DCFD;
+background: -moz-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -webkit-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -o-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: -ms-linear-gradient(bottom, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+background: linear-gradient(to top, #94c0fb 0%, #c5ddfd 50%, #ecf4fe 51%, #e8f1fe 78%, #ffffff 100%);
+font-style: italic;
+color: #1B47C9;
+line-height: 30px;
+float: right; 
+width: 1024px; 
+display: inline-block; 
+text-align: center; 
+padding-top:7px;
+padding-bottom:7px;
+margin-bottom: 50px; 
+border-radius: 10px; 
+border-bottom-left-radius:40px;
+border-bottom-right-radius:40px;
+/*box-shadow:inset 0 0 0 1px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);*/
+overflow: hidden;
+z-index:1;
+}
+
+
+/* Слайд Анимация на професиите*/
+
+div.jshowoff {
+margin-top:135px;
+}
+#features{
+box-shadow:inset 0 0 0 2px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);
+background: #efefef;
+background:transparent;
+position: relative;
+overflow: hidden;
+width: 1024px;
+height: 200px;
+padding-left:0px;
+border-radius:5px;
+z-index:1;
+}
+.jshowoff-controls {
+/*box-shadow:inset 0 0 0 1px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);*/
+border-radius:5px;
+float:right;
+width: 794px;
+margin-left:5px;
+z-index:1;
+}
+p.jshowoff-controls {
+background: #ffffb2;
+background: -moz-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -webkit-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -o-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -ms-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: linear-gradient(to top, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background:transparent;
+overflow: hidden;
+height: 1%;
+padding: 0px 0px 5px 0px;
+margin: 0;
+margin-top:2px;
+}
+.jshowoff-controls a {
+font-weight:bold;
+color: #003366;
+font-size: 11px;
+padding: 4px 8px 5px;
+margin: 5px 0 0 5px;
+text-decoration: none;
+outline: none;
+line-height: 14px;
+}
+.jshowoff-controls a:first-child {
+}
+.jshowoff-controls a:hover {
+color: #E6B800;
+background: #ffffb2;
+background: -moz-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -webkit-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -o-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: -ms-linear-gradient(bottom, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+background: linear-gradient(to top, #ffff65 0%, #ffffb2 50%, #ffffe5 51%, #ffffe0 78%, #ffffff 100%);
+box-shadow:inset 0 0 0 1px #163BFD, inset 0 0 10px rgba(78, 92, 190, 0.25), inset 0 0 6px rgba(53, 32, 209, 1), 0 0 15px rgba(9, 9, 12, 0.35);
+border-radius:5px;
+}
+.jshowoff-pausetext {
+color: #fff;
+}
